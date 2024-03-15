@@ -1,0 +1,69 @@
+body.registration {
+    background-image: url("../img/The_Circle.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #313639;
+}
+
+.green
+{
+    border-color: green;
+}
+
+.red
+{
+    border-color: red;
+}
+
+h3.registration-heading{
+    color: white;
+    font-weight: bold;
+}
+
+.hide
+{
+    display: none;
+}
+
+.white {
+    color: white;
+}
+
+.lighter-white{
+    color: white;
+    font-weight: 10;
+}
+
+.warning-icon
+{
+    color: white;
+    display: none;
+}
+
+.registration-box {
+    position: absolute;
+    right: 0;
+    width: 591px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+    font-size: 1.5em;
+    padding: 2% 2% 50%;
+}
+
+.small-unbold-white
+{
+    color: white;
+    font-size: small;
+}
+
+@media only screen and (max-width: 1900px) {
+    .registration-box {
+        width: 100%;
+    }
+
+    body.registration {
+        background-image: url("../img/The_Circle_cropped.png");
+    }
+}
